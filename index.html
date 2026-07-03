@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Chandu & Sweetie - Forever Love 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="loginPage" class="page active">
+        <div class="login-container">
+            <div class="login-card">
+                <h1>💕 Our Love Story 💕</h1>
+                <p class="tagline">Access our special memories...</p>
+                
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter username" required>
+                        <small>Try: chandu or sweetie</small>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter password" required>
+                        <small>Hint: your name + date format</small>
+                    </div>
+                    
+                    <button type="submit" class="btn-login">Login to Our Love Story</button>
+                </form>
+                
+                <div id="loginError" class="error-message"></div>
+                
+                <div class="credentials-hint">
+                    <p><strong>Demo Credentials:</strong></p>
+                    <p>👨 Username: chandu | Password: chandu@sweetie123</p>
+                    <p>👩 Username: sweetie | Password: sweetie@chandu123</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Dashboard Page -->
+    <div id="mainPage" class="page">
+        <nav class="navbar">
+            <div class="nav-content">
+                <h2>💕 Chandu & Sweetie 💕</h2>
+                <div class="nav-buttons">
+                    <span id="userGreeting"></span>
+                    <button id="logoutBtn" class="btn-logout">Logout</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Our Beautiful Journey Together 💑</h1>
+                    <p class="subtitle">From friendship to forever love...</p>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <div class="stat-card">
+                    <div class="stat-number" id="daysTogether">0</div>
+                    <div class="stat-label">Days of Friendship</div>
+                    <div class="stat-date">Since Jul 3, 2022</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="daysRelationship">0</div>
+                    <div class="stat-label">Days in Love</div>
+                    <div class="stat-date">Since Sep 29, 2025</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">Sweetie's Age</div>
+                    <div class="stat-date">Birthday: Mar 31, 2006</div>
+                </div>
+            </section>
+
+            <!-- Milestones Section -->
+            <section class="milestones-section">
+                <h2>📅 Our Important Milestones</h2>
+                <div class="timeline">
+                    <div class="milestone-item">
+                        <div class="milestone-date">July 3, 2022</div>
+                        <div class="milestone-title">Our Friendship Began ❤️</div>
+                        <div class="milestone-description">3 years of beautiful memories, laughter, and love.</div>
+                    </div>
+                    <div class="milestone-item">
+                        <div class="milestone-date">September 29, 2025</div>
+                        <div class="milestone-title">We Became More Than Friends 💕</div>
+                        <div class="milestone-description">The day we started our romantic journey together.</div>
+                    </div>
+                    <div class="milestone-item">
+                        <div class="milestone-date">March 31, 2006</div>
+                        <div class="milestone-title">Sweetie's Birthday 🎂</div>
+                        <div class="milestone-description">The day the most wonderful person was born!</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Special Message Section -->
+            <section class="message-section">
+                <div class="message-card">
+                    <h2>💌 A Special Message for You 💌</h2>
+                    <div id="specialMessage" class="special-message">
+                        <p id="messageText">Click to see a special message...</p>
+                    </div>
+                    <button id="refreshMessageBtn" class="btn-refresh">Get Another Message ✨</button>
+                </div>
+            </section>
+
+            <!-- Love Notes Section -->
+            <section class="notes-section">
+                <h2>💝 Why I Love You, Sweetie 💝</h2>
+                <div class="notes-grid">
+                    <div class="note">
+                        <div class="note-number">1</div>
+                        <p>Your smile lights up my entire world</p>
+                    </div>
+                    <div class="note">
+                        <div class="note-number">2</div>
+                        <p>You understand me like no one else</p>
+                    </div>
+                    <div class="note">
+                        <div class="note-number">3</div>
+                        <p>Every moment with you is precious</p>
+                    </div>
+                    <div class="note">
+                        <div class="note-number">4</div>
+                        <p>You make me a better person</p>
+                    </div>
+                    <div class="note">
+                        <div class="note-number">5</div>
+                        <p>Your laugh is my favorite sound</p>
+                    </div>
+                    <div class="note">
+                        <div class="note-number">6</div>
+                        <p>I love you more with every passing day</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Love Declaration -->
+            <section class="declaration-section">
+                <div class="declaration">
+                    <h2>Dear Sweetie,</h2>
+                    <p>
+                        Three years ago, we became friends. But somewhere along the way, 
+                        you became my everything. From September 29, 2025, I got to call you 
+                        my love, and it has been the best decision of my life.
+                    </p>
+                    <p>
+                        You are my best friend, my soulmate, and the person I want to spend 
+                        the rest of my life with. Your birthday reminds me of the gift you are 
+                        to this world, and how lucky I am to have you in my life.
+                    </p>
+                    <p class="declaration-ending">
+                        Forever Yours, ❤️<br>
+                        Chandu
+                    </p>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <p>💕 Made with love for Sweetie 💕</p>
+                <p>Chandu & Sweetie - Forever Together 🌹</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
